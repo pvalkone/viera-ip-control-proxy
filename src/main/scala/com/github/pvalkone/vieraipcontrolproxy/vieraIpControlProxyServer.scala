@@ -18,10 +18,10 @@ import scala.util.{Failure, Success, Try}
  * A proxy server for allowing IP control of a Panasonic Viera TV over
  * a simple HTTP API.
  *
- * Some European models (e.g. the TX-P55VT60Y) not support Wake-on-LAN,
- * and thus can't be turned on over Ethernet. This limitation can be
- * worked around by issuing power on/off commands over HDMI-CEC using
- * cec-client from libCEC.
+ * Some European models (e.g. the TX-P55VT60Y) do not support
+ * Wake-on-LAN, and thus can't be turned on over Ethernet. This
+ * limitation can be worked around by issuing power on/off commands
+ * over HDMI-CEC using cec-client from libCEC.
  *
  * Requires Oracle Java 7 and libCEC. Tested on Raspbian Wheezy.
  *
